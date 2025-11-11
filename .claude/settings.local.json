@@ -1,0 +1,38 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app:*)",
+      "Bash(npm install:*)",
+      "Bash(powershell.exe -Command \"Start-Process ''C:\\Program Files\\Docker\\Docker\\Docker Desktop.exe''\")",
+      "Bash(docker-compose up:*)",
+      "Bash(npx prisma migrate:*)",
+      "Bash(cat:*)",
+      "Bash(npx prisma db push)",
+      "Bash(curl:*)",
+      "Bash(npm run dev:*)",
+      "Bash(docker exec:*)",
+      "Bash(npx prisma generate:*)",
+      "Bash(powershell.exe -Command \"Stop-Process -Id 14332 -Force\")",
+      "Bash(powershell.exe -Command \"cd ''c:\\Users\\mktod\\OneDrive\\Documentos\\Saas Locação\\saas-locacao''; echo ''y'' | npx prisma migrate reset\")",
+      "Bash(reset-db.bat)",
+      "Bash(cmd /c \"c:\\Users\\mktod\\OneDrive\\Documentos\\Saas Locação\\saas-locacao\\reset-db.bat\")",
+      "Bash(powershell.exe -Command \"Get-Process node | Stop-Process -Force\")",
+      "Bash(timeout /t 5)",
+      "Bash(node seed-test-data.js:*)",
+      "Bash(npm run build:*)",
+      "Bash(vercel)",
+      "Bash(vercel --prod:*)",
+      "Bash(vercel link:*)",
+      "Bash(vercel env pull:*)",
+      "Bash(vercel env:*)",
+      "Bash(vercel inspect:*)",
+      "Bash(powershell.exe -Command \"Start-Process ''https://vercel.com/fernando-karakanians-projects/saas-oduo/stores''\")",
+      "Bash(vercel logs:*)",
+      "Bash(npx prisma db push:*)",
+      "Bash(powershell.exe -Command \"Start-Process ''https://vercel.com/fernando-karakanians-projects/saas-oduo/CnH4VGYfmYLupQ2oBPyUxuwiBFqk''\")",
+      "Bash(ls:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
